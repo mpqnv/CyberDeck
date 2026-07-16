@@ -1,17 +1,23 @@
-.id{
+.id {
     text-align: center;
     font-size: large;
-    color: blue;
+    color: #00b4d8;
 }
 
 .title {
     justify-content: center;
     text-align: center;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 33px;
+    text-shadow: 0px 0px 12px rgba(0, 180, 216, 0.8);
+    color: #00b4d8;
 }
 
 .border1 {
-    border: 15px solid lightblue;
+    background-image: url("L5fanw.jpg");
+    border: 25px solid #03045e;
     display: flex;
+    border-radius: 0px;
     flex-direction: column;
     padding: 20px;
     gap: 10px;
@@ -19,6 +25,74 @@
     height: 100%;
     width: 100%;
 }
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.tool-links {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; 
+    align-items: center; 
+}
+
+.card:hover, .ipvalidator:hover, .passwordgenerator:hover {
+    background-color: #00b4d8;
+    cursor: pointer;
+    border: 2px solid #caf0f8;
+    box-shadow: 0px 0px 20px rgba(0, 180, 216, 0.6);
+}
+
+.card {
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    padding: 10px;
+    margin: 50px;
+    margin: auto;
+    align-items: center;
+    width: 600px;
+    justify-content: center;
+    background-color: #0077b6;
+    font-size: 50px;
+    font-family: Copperplate, Papyrus, fantasy;
+    border: 2px solid transparent;
+}
+
+.ipvalidator {
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    padding: 10px;
+    margin: 50px;
+    margin: auto;
+    align-items: center;
+    width: 600px;
+    justify-content: center;
+    background-color: #0077b6;
+    font-size: 50px;
+    font-family: Copperplate, Papyrus, fantasy;
+    border: 2px solid transparent;
+}
+
+.passwordgenerator {
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    padding: 10px;
+    margin: 50px;
+    margin: auto;
+    align-items: center;
+    width: 600px; 
+    justify-content: center;
+    background-color: #0077b6;
+    font-size: 50px;
+    font-family: Copperplate, Papyrus, fantasy;
+    border: 2px solid transparent;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
